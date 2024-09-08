@@ -1,0 +1,71 @@
+body{
+    height: 1000vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width:40%;
+}
+
+.msg {
+    color: rgb(33, 33, 33);
+}
+.from {
+    color: rgb(0, 102, 204);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.to {
+    color: rgb(255, 87, 34);
+    font-weight: bold;
+    font-style: italic;
+}
+.chat{
+    background-color: rgb(242, 242, 242); /* Main container background */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 4px pink;
+    border-radius: 20px;
+}
+.delete{
+    background-color: rgb(194, 111, 111);
+    border: none;
+    border-radius:10px;
+    height:30px;
+    width:70px;
+}
+.chat:hover{
+    transform:scale(1.1);
+}
+.createNew{
+    background-color:green;
+    border: none;
+    border-radius:10px;
+    height:20px;
+}
+.edit{
+    border: none;
+    border-radius:10px;
+    height:20px;
+    width:60px;
+    background-color: rgb(204, 204, 116);
+}
+.msgfield{
+  background-color:rgb(177, 177, 144);
+  color: white;
+}
+.receiver{
+    background-color:rgb(160, 200, 160);
+    color: white;
+}
+.sender{
+    background-color:rgb(215, 190, 194);
+    color: white;
+}
+.create{
+    background-color:blueviolet;
+    color: white;
+}
